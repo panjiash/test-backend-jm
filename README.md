@@ -14,9 +14,10 @@ Untuk apliaksi ini yang saya gunakan adalah database mysql, jalankan command ini
 
 ## Installation
 
-Masuk ke directory aplikasi lalu install aplikasi dengan lakukan command dibawah ini:
+Setelah cloning repo, lalu masuk ke directory aplikasi lalu install aplikasi dengan lakukan command dibawah ini:
 
 ```bash
+  cd test-backend-jm/PROJECT_FOLDER/
   npm install
 ```
 
