@@ -1,0 +1,103 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "data_kepegawaian",
+    "dateExported": "2024-02-15T03:31:37.058Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a14ce8b9-9c4c-4444-adcf-b2de353f4279",
+            "colId": "d49f0bac-c6b4-4a50-bdca-dfd6d6cfe05d",
+            "containerId": "",
+            "name": "http://localhost:5003/employee",
+            "url": "http://localhost:5003/employee",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-15T03:02:39.927Z",
+            "modified": "2024-02-15T03:10:40.650Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nik\": \"1102\",\n  \"name\":\"Budi\",\n  \"start_date\":\"2022-12-12\",\n  \"end_date\": \"2029-12-12\",\n  \"created_by\": \"admin\",\n  \"updated_by\": \"admin\",\n  \"profile\": {\n      \"place_of_birth\": \"Jakarta\",\n      \"date_of_birth\": \"1997-05-02\",\n      \"gender\": \"Laki-Laki\",\n      \"is_married\": 1,\n      \"prof_pict\": \"\"\n  },\n  \"family_data\":[\n    {\n       \"name\": \"Marni\",\n       \"identifier\": \"32100594109960002\",\n       \"job\": \"Ibu Rumah Tangga\",\n       \"place_of_birth\": \"Denpasar\",\n       \"date_of_birth\": \"1995-10-17\",\n       \"religion\": \"Islam\",\n       \"is_life\": 1,\n       \"is_divorced\": 0,\n       \"relation_status\": \"Istri\"\n    },\n    {\n       \"name\": \"Clara\",\n       \"identifier\": \"32100594109020004\",\n       \"job\": \"Pelajar\",\n       \"place_of_birth\": \"Bangkalan\",\n       \"date_of_birth\": \"2008-10-17\",\n       \"religion\": \"Islam\",\n       \"is_life\": 1,\n       \"is_divorced\": 0,\n       \"relation_status\": \"Anak\"\n    },\n    {\n       \"name\": \"Stephanie\",\n       \"identifier\": \"32100594109020005\",\n       \"job\": \"Pelajar\",\n       \"place_of_birth\": \"Bangkalan\",\n       \"date_of_birth\": \"2008-10-17\",\n       \"religion\": \"Islam\",\n       \"is_life\": 1,\n       \"is_divorced\": 0,\n       \"relation_status\": \"Anak\"\n    }\n  ],\n  \"education\":[\n    {\n      \"name\": \"SMKN 7 Jakarta\",\n      \"level\": \"SMA\",\n      \"description\": \"Sekolah Menengah Atas\"\n    }\n  ]\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "80e52785-b2e0-4f4e-9bd3-0131edaaa8c5",
+            "colId": "d49f0bac-c6b4-4a50-bdca-dfd6d6cfe05d",
+            "containerId": "",
+            "name": "http://localhost:5003/employee/1",
+            "url": "http://localhost:5003/employee/1",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-02-15T03:03:04.300Z",
+            "modified": "2024-02-15T03:03:04.300Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nik\": \"1102\",\n  \"name\":\"Budi\",\n  \"start_date\":\"2022-12-12\",\n  \"end_date\": \"2029-12-12\",\n  \"created_by\": \"admin\",\n  \"updated_by\": \"admin\",\n  \"profile\": {\n      \"place_of_birth\": \"Jakarta\",\n      \"date_of_birth\": \"1997-05-02\",\n      \"gender\": \"Laki-Laki\",\n      \"is_married\": 1,\n      \"prof_pict\": \"\"\n  },\n  \"family_data\":[\n    {\n       \"name\": \"Marni\",\n       \"identifier\": \"32100594109960002\",\n       \"job\": \"Ibu Rumah Tangga\",\n       \"place_of_birth\": \"Denpasar\",\n       \"date_of_birth\": \"1995-10-17\",\n       \"religion\": \"Islam\",\n       \"is_life\": 1,\n       \"is_divorced\": 0,\n       \"relation_status\": \"Istri\"\n    },\n    {\n       \"name\": \"Clara\",\n       \"identifier\": \"32100594109020004\",\n       \"job\": \"Pelajar\",\n       \"place_of_birth\": \"Bangkalan\",\n       \"date_of_birth\": \"2008-10-17\",\n       \"religion\": \"Islam\",\n       \"is_life\": 1,\n       \"is_divorced\": 0,\n       \"relation_status\": \"Anak\"\n    },\n    {\n       \"name\": \"Stephanie\",\n       \"identifier\": \"32100594109020005\",\n       \"job\": \"Pelajar\",\n       \"place_of_birth\": \"Bangkalan\",\n       \"date_of_birth\": \"2008-10-17\",\n       \"religion\": \"Islam\",\n       \"is_life\": 1,\n       \"is_divorced\": 0,\n       \"relation_status\": \"Anak\"\n    }\n  ],\n  \"education\":[\n    {\n      \"id\": 1,\n      \"name\": \"SMKN 7 Jakarta\",\n      \"level\": \"SMA\",\n      \"description\": \"Sekolah Menengah Atas\"\n    }\n  ]\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "83801c28-8f39-4e07-8396-3350e517119c",
+            "colId": "d49f0bac-c6b4-4a50-bdca-dfd6d6cfe05d",
+            "containerId": "",
+            "name": "http://localhost:5003/employee",
+            "url": "http://localhost:5003/employee",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-02-15T03:04:53.312Z",
+            "modified": "2024-02-15T03:04:53.312Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "94005d62-20b4-45e0-9a41-3f46abd50e13",
+            "colId": "d49f0bac-c6b4-4a50-bdca-dfd6d6cfe05d",
+            "containerId": "",
+            "name": "http://localhost:5003/employee/1",
+            "url": "http://localhost:5003/employee/1",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-02-15T03:05:06.060Z",
+            "modified": "2024-02-15T03:05:06.060Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "81bad157-51bd-4d87-96ec-996a364618d2",
+            "colId": "d49f0bac-c6b4-4a50-bdca-dfd6d6cfe05d",
+            "containerId": "",
+            "name": "http://localhost:5003/employee/1",
+            "url": "http://localhost:5003/employee/1",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-02-15T03:05:20.180Z",
+            "modified": "2024-02-15T03:05:20.180Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c7e5fb6b-99cf-4d1c-8e3d-92b2f2540689",
+            "colId": "d49f0bac-c6b4-4a50-bdca-dfd6d6cfe05d",
+            "containerId": "",
+            "name": "http://localhost:5003/employeeReport",
+            "url": "http://localhost:5003/employeeReport",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-02-15T03:31:27.586Z",
+            "modified": "2024-02-15T03:31:27.586Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
