@@ -2,9 +2,32 @@
 
 Dibuat untuk kebutuhan tes masuk pada Perusahaan Jasa Marga.
 
-Berikut adalah langkah langkah penginstalan aplikasi.
+Ada 2 langkah untuk menginstall aplikasi ini:
 
-## Buat Database
+## 1. Dockerfile
+
+Clone repository
+
+```bash
+  git clone https://github.com/panjiash/test-backend-jm.git
+```
+
+Masuk ke directory
+
+```bash
+  cd test-backend-jm
+```
+
+Jalankan Dockerfile
+
+```bash
+  docker build -t testpanji .
+  docker run -dit --name testpnji -p 5003:5003 testpanji
+```
+
+## 2. Manual Installation
+
+### Buat Database
 
 Untuk apliaksi ini yang saya gunakan adalah database mysql, jalankan command ini untuk membuat database.
 
@@ -12,7 +35,7 @@ Untuk apliaksi ini yang saya gunakan adalah database mysql, jalankan command ini
   create database data_kepegawaian;
 ```
 
-## Installation
+### Installation
 
 Setelah cloning repo, lalu masuk ke directory aplikasi lalu install aplikasi dengan lakukan command dibawah ini:
 
@@ -21,7 +44,7 @@ Setelah cloning repo, lalu masuk ke directory aplikasi lalu install aplikasi den
   npm install
 ```
 
-## Run App
+### Run App
 
 Setelah berada di dalam folder aplikasi Lalu jalankan command dibawah ini untuk memulai aplikasi:
 

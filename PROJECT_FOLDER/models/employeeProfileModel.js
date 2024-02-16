@@ -45,7 +45,7 @@ const EmployeeProfile = db.define(
     },
   },
   {
-    tableName: "EmployeeProfiles",
+    tableName: "employeeprofiles",
     timestamps: true,
   }
 );
