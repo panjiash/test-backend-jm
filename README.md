@@ -37,6 +37,12 @@ Untuk apliaksi ini yang saya gunakan adalah database mysql, jalankan command ini
 
 ### Installation
 
+Clone repository
+
+```bash
+  git clone https://github.com/panjiash/test-backend-jm.git
+```
+
 Setelah cloning repo, lalu masuk ke directory aplikasi lalu install aplikasi dengan lakukan command dibawah ini:
 
 ```bash
